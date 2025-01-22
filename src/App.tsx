@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import './components/Chessboard/Chessboard'
+import Chessboard from './components/Chessboard/Chessboard'
 
 function App() {
 
   return (
-    <>
-      salam
-    </>
+    <div id='app'>
+      <h1>ЭТО ШАХМАТЫ СТХА</h1>
+      <Chessboard/>
+    </div>
   )
 }
 

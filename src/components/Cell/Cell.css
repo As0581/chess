@@ -1,0 +1,31 @@
+#chessboard .cell{
+    display: flex;
+    width: 100px;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-img{
+    width: 100px;
+}
+
+.chess-piece{
+    width:100px;
+    height:100px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    cursor: grab;
+}
+
+.chess-piece:active{
+    cursor: grabbing;
+}
+
+#chessboard .black-cell{
+    background-color: #666;
+}
+#chessboard .white-cell{
+    background-color:#ffffff ;
+}
